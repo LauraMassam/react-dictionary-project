@@ -5,3 +5,15 @@
   margin-top: 10px;
   text-align: center;
 }
+.container{
+  border-color: #262A53;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.coded-by{
+  font-size: 12px;
+  text-align: center;
+}
