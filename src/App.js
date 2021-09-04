@@ -14,7 +14,8 @@ export default function App() {
         open source code by {""}
         <a 
         href ="https://github.com/LauraMassam/react-dictionary-project"
-        target="_blank">
+        target="_blank"
+        rel="noreferrer">
          Laura Massam
         </a>
       </footer>
