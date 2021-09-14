@@ -8,7 +8,7 @@ export default function App() {
         <header className = "App-header">
           DICTIONARY
         </header>       
-        < Dictionary defaultKeyword="Cloud"/>
+        < Dictionary defaultKeyword="Hello"/>
       </div>
       <footer className="coded-by">
         open source code by {""}

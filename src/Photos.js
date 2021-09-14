@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Photos(props){
     if (props.photos){
-        console.log(props.photos);
     return(
         <div>
             {props.photos.map(function (photo, index){
@@ -14,7 +13,7 @@ export default function Photos(props){
                         >
                         <img src={photo.src.landscape} 
                              className="img-fluid"
-                             alt=""
+                             alt="cloud"
                         />
                         </a>
                     </div>
