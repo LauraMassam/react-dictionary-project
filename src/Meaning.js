@@ -1,8 +1,10 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import "./Meaning.css"
 
 export default function Meaning(props){
     return(
+            <section>
         <div className="meaning">
             <h3>
                 {props.meaning.partOfSpeech}
@@ -11,7 +13,7 @@ export default function Meaning(props){
                 (function(definition, index){
                     return(
                         <div key={index}>
-                            <div>
+                            <div className="definition">
                                 {definition.definition}
                                 <br />
                                 <em>{definition.example}</em>
@@ -21,5 +23,6 @@ export default function Meaning(props){
                     );
                 })}
         </div>
+        </section>
     );
 }

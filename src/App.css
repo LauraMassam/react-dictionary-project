@@ -1,19 +1,20 @@
 .App-header{
-  color: #262A53;
+  color: #305E63;
   font-size: 40px;
   font-weight: 600;
   margin-top: 10px;
   text-align: center;
 }
 .container{
-  border-color: #262A53;
-  border-radius: 5px;
+  border-color: #DFEEEA;
+  border-radius: 10px;
   border-width: 1px;
   border-style: solid;
   margin-top: 10px;
-  padding: 5px 10px;
+  max-width: 850px;
+  padding: 5px 35px 20px 35px;
 }
 .coded-by{
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }

@@ -1,12 +1,13 @@
 import React from "react";
+import './Photos.css';
 
 export default function Photos(props){
     if (props.photos){
     return(
-        <div>
+        <div className="row">
             {props.photos.map(function (photo, index){
                 return(
-                    <div key={index}>
+                    <div className="col-12" key={index}>
                         <a href={photo.src.original}
                            target="_blank"
                            rel="noreferrer"

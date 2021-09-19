@@ -1,0 +1,17 @@
+.fa-volume-up{
+    color: #2F5D62;
+    font-size: 20px;
+    padding: 10px 10px 0px 0px;
+}
+
+.phonetic-text{
+    color: #2F5D62;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.phonetics{
+    margin-bottom: 5px;
+    margin-top: -10px;
+    text-align: center;
+}

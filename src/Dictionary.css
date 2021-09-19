@@ -1,7 +1,50 @@
-.Dictionary{
+h1{
+    color: #638395;
+    font-size: 15px;
+    text-align: center;
+}
+.search-box{
+    margin-right: 5px;
+}
+
+.keyword-search-box{
+    margin: 10px 0;
     text-align: center;
 }
 
-h1{
-    font-size: 15px;
+.keyword-search-box-input{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    color: #6C757D;
+    padding: 5px;
+}
+
+.keyword-search-box-input:hover{
+    box-shadow: 0px 2px 6px 0px #638395;
+    transition: ease-in-out 200ms;
+}
+
+.keyword-search-box-input:focus{
+    background-color: #fff;
+    border:solid #2F5D62 1px;
+    border-color: #2F5D62;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px 0px #638395;
+    color: #6C757D;
+    outline: 0;
+    transition: ease-in-out 200ms;
+}
+
+.keyword-search-button{
+    background-color: #2F5D62;
+    border-radius: 5px;
+    border-width: 1px;
+    color: #fff;
+    padding: 5px 10px
+}
+
+.keyword-search-button:hover{    
+    box-shadow: 0px 2px 6px 0px #638395;
+    transition: ease-in-out 200ms;
 }
